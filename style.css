@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/Inter-Regular.woff2) format("woff2"),
+         url(./fonts/Inter-Regular.woff) format("woff");
+}       
+
+@font-face {
+            font-family: 'Inter';
+            font-style:  normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(./fonts/Inter-Bold.woff2) format("woff2"),
+                 url(./fonts/Inter-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(./fonts/Inter-Black.woff2) format("woff2"),
+         url(./fonts/Inter-Black.woff) format("woff");
+  }
+  
+.page {
+    min-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial,  sans-serif;
+    background-color: #2A2C2F;
+    
+}
+
+
+
+.header{
+    min-width: calc(1024px - 96px);
+    padding: 0 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 52px;
+    width: 176px;
+    background-image: url(./images/logo/__logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.header__links {
+    width: calc(30px + 28px + 18px);
+    margin: 18px 0 6px;
+    display: flex;
+}
+
+.header__link { 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.header__link_ru {
+    text-decoration-line: underline;
+    margin-right: 18px;
+}
+
+.header__link_en {
+    text-decoration: none;
+}
+
+.lead {
+
+    border: 1px red solid;
+}
+
+
+
+.intro {
+
+    border: 1px red solid;
+}
+
+
+
+
+.photo-grid {
+
+    border: 1px red solid;
+}
+
+
+
+.places {
+
+    border: 1px red solid;
+}
+
+.cover {
+
+    border: 1px red solid;
+
+}
+
+.footer {
+    border: 1px red solid;
+
+}
