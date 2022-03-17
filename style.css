@@ -30,13 +30,14 @@
     margin: 0 auto;
     font-family: 'Inter', Arial,  sans-serif;
     background-color: #2A2C2F;
+    color: #FFFFFF;
     
 }
 
 
 
 .header{
-    min-width: calc(1024px - 96px);
+    min-width: calc(100% - 96px);
     padding: 0 48px;
     display: flex;
     justify-content: space-between;
@@ -64,6 +65,7 @@
     line-height: 28px;
     text-align: right;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .header__link_ru {
@@ -72,43 +74,123 @@
 }
 
 .header__link_en {
-    text-decoration: none;
+    
 }
 
 .lead {
+    padding-top: 48px;
+    min-width: calc(100% - 96px);
+    display: flex;
+    flex-direction: column;
+    
 
-    border: 1px red solid;
+    
 }
 
+.lead__title {
+    
+    width: calc(100% - 304px);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
 
+.lead__subtitle {
+    width: calc(100% - 192px*2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 32px auto 56px;
+}
+
+.lead__image {
+    width: calc(100% - 96px);
+    margin: 0 auto;
+}
+
+.lead__caption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    width: 165px;
+    margin: 8px 48px 0;
+}
 
 .intro {
-
-    border: 1px red solid;
+    max-width: calc(100% - 96px);
+    padding: 92px 48px;
+    
 }
 
+.intro__title {
+    width: calc(100% + 48px - 286px);
+    max-width: ;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    margin: 0;
+    
+}
 
+.intro__text {
+    width: calc(100% + 48px - 286px);
+    margin: 40px 0 33px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    
+    
+}
 
+.intro__list {
+    width: calc(100% + 48px - 286px);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.intro__list-item {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+}
 
 .photo-grid {
-
-    border: 1px red solid;
+    width: calc(100% - 96px);
+    m
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    
 }
 
 
 
 .places {
-
-    border: 1px red solid;
+    max-width: calc(1024px - 96px);
+    border: 1px black solid;
 }
 
 .cover {
-
-    border: 1px red solid;
+    max-width: calc(1024px - 96px);
+    border: 1px black solid;
 
 }
 
 .footer {
-    border: 1px red solid;
-
+    border: 1px black solid;
+    max-width: calc(1024px - 96px);
 }
