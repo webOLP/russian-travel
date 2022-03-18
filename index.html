@@ -19,12 +19,14 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <h3 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
+      <div class="lead__image-tie">
       <img src="./images/kalegin-michail-179870-unsplash.jpg" alt="Вид из поезда" class="lead__image">
       <p class="lead__caption">ваша полка — верхняя</p>
+      </div>  <!--эта обёртка нужна, чтобы caption при расширении картинки относительно её оставался в том же месте-->
       
     </section>
     <section class="intro">
-      <h2 class="intro__title">Чего мы там не видели</h2>
+      <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, 
         но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, 
         не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми 
@@ -96,7 +98,7 @@
       <div class="places__place">
         <h2 class="places__title">Алтай</h2>
         <div class="places__website">
-          <h5 class="places__url-heading">URL</h5>
+          <h4 class="places__url-heading">URL</h4>
           <a href="#" class="places__link">Facebook</a>
         </div>
         <img src="./images/__image-4.jpg" alt="Куршская коса" class="places__image">
@@ -146,14 +148,22 @@
     </section>
     <section class="cover">
       <img src="./images/__background.jpg" alt="Станция вагонов" class="cover__image">
+      <div class="cover__overlay"></div>
       <h2 class="cover__title">До Байкала «на собаках»</h2>
       <h4 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до 
         Байкала на электричках.</h4>
     </section>
     <footer class="footer">
-      
+      <ul class="footer__links">
+        <li ><a href="3" class="footer__link">Карты</a></li>
+        <li ><a href="3" class="footer__link">Погода</a></li>
+        <li ><a href="3" class="footer__link">Расписание</a></li>
+        <li ><a href="3" class="footer__link">Календарь</a></li>
+        <li ><a href="3" class="footer__link">Путешествия</a></li>
+      </ul>
+      <p class="footer__copyright">© 2020. OLP</p>
     </footer>
-    <h3>asda</h3>
+    
   </div>
 </body>
 </html>
