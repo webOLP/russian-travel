@@ -1,0 +1,29 @@
+.places__link {
+    width: 456px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .places__link {
+        width: 352px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration: underline;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+}

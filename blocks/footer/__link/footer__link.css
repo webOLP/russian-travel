@@ -1,0 +1,27 @@
+.footer__link {
+    text-decoration: none;
+    color:#FFFFFF ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+
+}
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+        text-decoration: none;
+        color:#FFFFFF ;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+    }
+}

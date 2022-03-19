@@ -1,0 +1,30 @@
+.page {
+    min-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial,  sans-serif;
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%; 
+}
+
+@media screen and (min-width: 1280px) {
+    .page {
+        min-width: 1280px;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .page {
+        min-width: 768px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .page {
+        min-width: 320px;
+    }
+}

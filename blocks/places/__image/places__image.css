@@ -1,0 +1,26 @@
+.places__image {
+    width: 440px;
+    object-fit: cover;
+    margin-top: 48px;
+}
+
+@media screen and (min-width: 1280px) {
+    .places__image {
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .places__image {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__image {
+        width: 100%;
+        margin-bottom: 32px;
+        margin-top: 0;
+        align-self: center;
+    }
+}

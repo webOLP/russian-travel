@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href ="/normalize.css">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./fonts.css">
+  <link rel="stylesheet" href="./style.css">
   <title>Путешествие по России</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
     <header class="header">
       <div class="header__logo"></div>
       <div class="header__links">
-        <a href="#" class="header__link header__link_ru">Ru</a>
+        <a href="#" class="header__link">Ru</a>
         <a href="#" class="header__link header__link_en">En</a>
       </div>
     </header>
@@ -20,9 +21,11 @@
       <h1 class="lead__title">Путешествия по России</h1>
       <h3 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
       <div class="lead__image-tie">
-      <img src="./images/kalegin-michail-179870-unsplash.jpg" alt="Вид из поезда" class="lead__image">
-      <p class="lead__caption">ваша полка — верхняя</p>
-      </div>  <!--эта обёртка нужна, чтобы caption при расширении картинки относительно её оставался в том же месте-->
+        <img src="./images/kalegin-michail-179870-unsplash.jpg" alt="Вид из поезда" class="lead__image">
+        <p class="lead__caption">ваша полка — верхняя</p>
+     </div>   <!-- эта обёртка нужна, чтобы caption при расширении картинки относительно неё 
+      оставался в том же месте.  По задумке, картинка расширяется расширении от 1024 до 1280 
+      до определенного значения, поэтому держать caption рядом с её углом по другому не получается-->
       
     </section>
     <section class="intro">
@@ -101,7 +104,7 @@
           <h4 class="places__url-heading">URL</h4>
           <a href="#" class="places__link">Facebook</a>
         </div>
-        <img src="./images/__image-4.jpg" alt="Куршская коса" class="places__image">
+        <img src="./images/__image-2.jpg" alt="Куршская коса" class="places__image">
         <div class="places__paragraphs">
           <p class="places__paragraph">Алтай — одно из красивейших мест в России. 
             В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, 
@@ -118,7 +121,7 @@
           <h5 class="places__url-heading">URL</h5>
           <a href="#" class="places__link">https://vk.com/baikalmile</a>
         </div>
-        <img src="./images/__image-4.jpg" alt="Куршская коса" class="places__image">
+        <img src="./images/__image-1.jpg" alt="Куршская коса" class="places__image">
         <div class="places__paragraphs">
           <p class="places__paragraph">Всем известен Байкал как крупнейшее озеро 
             в мире. Многие также знают, что это самый большой источник пресной воды и одно 
@@ -134,7 +137,7 @@
             <h5 class="places__url-heading">URL</h5>
             <a href="#" class="places__link">http://vodlozero.ru/</a>
           </div>
-          <img src="./images/__image-4.jpg" alt="Куршская коса" class="places__image">
+          <img src="./images/__image.jpg" alt="Куршская коса" class="places__image">
           <div class="places__paragraphs">
             <p class="places__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая 
               тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает 
@@ -147,7 +150,6 @@
       </div>
     </section>
     <section class="cover">
-      <img src="./images/__background.jpg" alt="Станция вагонов" class="cover__image">
       <div class="cover__overlay"></div>
       <h2 class="cover__title">До Байкала «на собаках»</h2>
       <h4 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до 

@@ -1,0 +1,20 @@
+.header__links {
+    width: calc(30px + 28px + 18px);
+    margin: 18px 0 6px;
+    display: flex;          /*чтобы убрать пробел между ру и ен*/
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+
+}
+
+@media screen and (max-width: 767px) {
+    .header__links {
+        width: calc(22px + 22px + 18px);
+        margin: 14px 0 8px;
+    }
+}
