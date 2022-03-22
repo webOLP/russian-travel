@@ -2,7 +2,7 @@
     width: 100%;
     max-width: calc(1280px - 48px*2);
     height: 640px;
-    background-image: url(../../../images/__background.jpg);
+    background-image: url(../../images/__background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
