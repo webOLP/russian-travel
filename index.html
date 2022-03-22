@@ -5,30 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="stylesheet" href="./fonts.css">
-  <link rel="stylesheet" href="./style.css">
   <title>Путешествие по России</title>
 </head>
 <body>
   <div class="page">
-    <header class="header">
+    <header class="header container">
       <div class="header__logo"></div>
       <div class="header__links">
         <a href="#" class="header__link">Ru</a>
         <a href="#" class="header__link header__link_en">En</a>
       </div>
     </header>
-    <section class="lead">
+    <section class="lead container">
       <h1 class="lead__title">Путешествия по России</h1>
       <h3 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
-      <div class="lead__image-tie">
         <img src="./images/kalegin-michail-179870-unsplash.jpg" alt="Вид из поезда" class="lead__image">
         <p class="lead__caption">ваша полка — верхняя</p>
-     </div>   <!-- эта обёртка нужна, чтобы caption при расширении картинки относительно неё 
-      оставался в том же месте.  По задумке, картинка расширяется расширении от 1024 до 1280 
-      до определенного значения, поэтому держать caption рядом с её углом по другому не получается-->
-      
     </section>
-    <section class="intro">
+    <section class="intro container">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, 
         но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, 
@@ -46,7 +40,7 @@
         <li><p class="intro__list-item">Аэропортов 241</p></li> 
       </ul>
     </section>
-    <section class="photo-grid">
+    <section class="photo-grid container">
       <img src="./images/__item-11.jpg" alt="вид из окна поезда" class="photo-grid__image">
       <img src="./images/__item-10.jpg" alt="вид из окна поезда" class="photo-grid__image">
       <img src="./images/__item-9.jpg" alt="вид из окна поезда" class="photo-grid__image">
@@ -60,12 +54,12 @@
       <img src="./images/__item-1.jpg" alt="вид из окна поезда" class="photo-grid__image">
       <img src="./images/__item.jpg" alt="вид из окна поезда" class="photo-grid__image">
     </section>
-    <section class="places">
+    <section class="places container">
       <div class="places__place">
         <h2 class="places__title">Куршская коса</h2>
         <div class="places__website">
           <h5 class="places__url-heading">URL</h5>
-          <a href="#" class="places__link">park-kosa.ru</a>
+          <a href="http://park-kosa.ru" class="places__link">park-kosa.ru</a>
         </div>
         <img src="./images/__image-4.jpg" alt="Куршская коса" class="places__image">
         <div class="places__paragraphs">
@@ -83,7 +77,7 @@
         <h2 class="places__title">Кольский</h2>
         <div class="places__website">
           <h5 class="places__url-heading">URL</h5>
-          <a href="#" class="places__link">National Geographic</a>
+          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__link">National Geographic</a>
         </div>
         <img src="./images/__image-3.jpg" alt="Куршская коса" class="places__image">
         <div class="places__paragraphs">
@@ -102,7 +96,7 @@
         <h2 class="places__title">Алтай</h2>
         <div class="places__website">
           <h4 class="places__url-heading">URL</h4>
-          <a href="#" class="places__link">Facebook</a>
+          <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="places__link">Facebook</a>
         </div>
         <img src="./images/__image-2.jpg" alt="Куршская коса" class="places__image">
         <div class="places__paragraphs">
@@ -119,7 +113,7 @@
         <h2 class="places__title">Зимний Байкал</h2>
         <div class="places__website">
           <h5 class="places__url-heading">URL</h5>
-          <a href="#" class="places__link">https://vk.com/baikalmile</a>
+          <a href="https://vk.com/baikalmile" class="places__link">https://vk.com/baikalmile</a>
         </div>
         <img src="./images/__image-1.jpg" alt="Куршская коса" class="places__image">
         <div class="places__paragraphs">
@@ -135,7 +129,7 @@
           <h2 class="places__title">Карелия</h2>
           <div class="places__website">
             <h5 class="places__url-heading">URL</h5>
-            <a href="#" class="places__link">http://vodlozero.ru/</a>
+            <a href="http://vodlozero.ru" class="places__link">http://vodlozero.ru/</a>
           </div>
           <img src="./images/__image.jpg" alt="Куршская коса" class="places__image">
           <div class="places__paragraphs">
@@ -149,19 +143,21 @@
           </div>
       </div>
     </section>
-    <section class="cover">
-      <div class="cover__overlay"></div>
-      <h2 class="cover__title">До Байкала «на собаках»</h2>
-      <h4 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до 
+    <section class="cover container">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+        <div class="cover__overlay"></div>
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <h4 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до 
         Байкала на электричках.</h4>
+      </a>
     </section>
-    <footer class="footer">
+    <footer class="footer container">
       <ul class="footer__links">
-        <li ><a href="3" class="footer__link">Карты</a></li>
-        <li ><a href="3" class="footer__link">Погода</a></li>
-        <li ><a href="3" class="footer__link">Расписание</a></li>
-        <li ><a href="3" class="footer__link">Календарь</a></li>
-        <li ><a href="3" class="footer__link">Путешествия</a></li>
+        <li ><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
+        <li ><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
+        <li ><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
+        <li ><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
+        <li ><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
       </ul>
       <p class="footer__copyright">© 2020. OLP</p>
     </footer>

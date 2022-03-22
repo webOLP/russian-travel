@@ -6,13 +6,6 @@
     background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 1280px) {
-
-}
-
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-
-}
 
 @media screen and (max-width: 767px){
     .header__logo {

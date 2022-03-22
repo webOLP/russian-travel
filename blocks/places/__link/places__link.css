@@ -6,24 +6,16 @@
     line-height: 22px;
     text-decoration: underline;
     color: #FFFFFF;
+    transition: opacity .3s linear;
 }
 
-@media screen and (min-width: 1280px) {
-
+.places__link:hover {
+    opacity: .8;
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .places__link {
         width: 352px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-        text-decoration: underline;
-        color: #FFFFFF;
     }
 }
 
-@media screen and (max-width: 767px) {
-
-}
