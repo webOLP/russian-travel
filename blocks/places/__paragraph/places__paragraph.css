@@ -15,15 +15,11 @@
 @media screen and (min-width: 1280px) {
     .places__paragraph {
         width: 484px;
-        font-size: 18px;
-        line-height: 29px;
-        margin-bottom: 26px;
     }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .places__paragraph {
-        margin: 0;
         width: 352px;
         font-size: 16px;
         line-height: 26px;
