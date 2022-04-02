@@ -13,7 +13,6 @@
 } 
 
 .header__link:first-child { 
-    text-decoration-line: underline;
     margin-right: 18px;
 }
 

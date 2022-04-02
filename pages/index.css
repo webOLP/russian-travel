@@ -42,3 +42,5 @@
 @import url(../blocks/cover/__link/cover__link.css);
 
 /* modifiers */
+
+@import url(../blocks/header/__link/_active/header__link_active.css);
